@@ -49,6 +49,7 @@ class Installer extends LibraryInstaller
      */
     public function supports($packageType)
     {
+        echo 'test test test';
         switch ($packageType) {
             case 'ihms-library':
                 $ret = true;
