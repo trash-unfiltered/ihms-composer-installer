@@ -2,7 +2,6 @@
 	"name":"ihms/ihms-installer",
 	"type":"indep",
 	"description":"iHMS installer",
-	"version":"0.1",
 	"authors":[
 		{
 			"name":"Laurent Declercq",
@@ -34,7 +33,7 @@
 	},
 	"extra":{
 		"branch-alias":{
-			"dev-master":"1.0-dev"
+			"dev-master":"0.0.1-dev"
 		}
 	}
 }
