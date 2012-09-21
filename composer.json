@@ -2,6 +2,7 @@
 	"name":"ihms/ihms-installer",
 	"type":"indep",
 	"description":"iHMS installer",
+	"version":"0.1",
 	"authors":[
 		{
 			"name":"Laurent Declercq",
