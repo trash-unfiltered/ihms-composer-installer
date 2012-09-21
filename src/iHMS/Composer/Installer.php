@@ -49,7 +49,6 @@ class Installer extends LibraryInstaller
      */
     public function supports($packageType)
     {
-        echo 'test test test';
         switch ($packageType) {
             case 'ihms-library':
                 $ret = true;
@@ -85,5 +84,10 @@ class Installer extends LibraryInstaller
         }
 
         return $installPath;
+    }
+
+    public static function postInstall()
+    {
+        echo "This is a post install command triggered on the post-install-cmd hook\n";
     }
 }
