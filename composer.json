@@ -1,6 +1,6 @@
 {
 	"name":"ihms/ihms-installer",
-	"type":"indep",
+	"type":"installer-composer",
 	"description":"iHMS installer",
 	"authors":[
 		{
@@ -28,10 +28,11 @@
 	},
 	"autoload":{
 		"psr-0":{
-			"iHMS\\":"library/"
+			"iHMS\\Composer":"src/"
 		}
 	},
 	"extra":{
+		"class":"iHMS\\Composer\\Installer",
 		"branch-alias":{
 			"dev-master":"0.0.1-dev"
 		}
