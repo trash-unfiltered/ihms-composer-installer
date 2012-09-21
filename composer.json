@@ -36,8 +36,5 @@
 		"branch-alias":{
 			"dev-master":"0.0.1-dev"
 		}
-	},
-	"scripts": {
-		"post-update-cmd": "iHMS\\Composer\\Installer::postInstall"
 	}
 }
