@@ -1,6 +1,6 @@
 {
 	"name":"ihms/ihms-installer",
-	"type":"installer-composer",
+	"type":"composer-installer",
 	"description":"iHMS installer",
 	"authors":[
 		{
