@@ -38,6 +38,6 @@
 		}
 	},
 	"scripts": {
-		"post-update-cmd": "HMS\\Composer\\Installer::postInstall"
+		"post-update-cmd": "iHMS\\Composer\\Installer::postInstall"
 	}
 }
