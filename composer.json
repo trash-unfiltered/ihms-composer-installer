@@ -1,0 +1,40 @@
+{
+	"name":"ihms/ihms-installer",
+	"type":"indep",
+	"description":"iHMS installer",
+	"authors":[
+		{
+			"name":"Laurent Declercq",
+			"email":"l.declercq@nuxwin.com",
+			"role":"project lead / developer"
+		}
+	],
+	"license":"GPL-2.0+",
+	"keywords":[
+		"ihms",
+		"installer"
+	],
+	"repositories":[
+		{
+			"packagist":false
+		},
+		{
+			"type":"composer",
+			"url":"http://packages.i-hms.net/"
+		}
+	],
+	"require":{
+		"PHP":">=5.3.3",
+		"ihms/ihms-installer":"*"
+	},
+	"autoload":{
+		"psr-0":{
+			"iHMS\\":"library/"
+		}
+	},
+	"extra":{
+		"branch-alias":{
+			"dev-master":"1.0-dev"
+		}
+	}
+}
