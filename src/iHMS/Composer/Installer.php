@@ -56,6 +56,7 @@ class Installer extends LibraryInstaller
             case 'ihms-module':
                 $ret = true;
                 break;
+            case 'ihms-web':
             default:
                 $ret = false;
         }
@@ -79,15 +80,13 @@ class Installer extends LibraryInstaller
             case 'ihms-module':
                 $installPath = '/usr/local/share/ihms/module';
                 break;
+            case 'ihms-web':
+                $installPath = '/var/www/ihms';
+                break;
             default:
                 throw new \RuntimeException('Unable to install package, package type not supported by installer');
         }
 
         return $installPath;
-    }
-
-    public static function postInstall()
-    {
-        echo "This is a post install command triggered on the post-install-cmd hook\n";
     }
 }

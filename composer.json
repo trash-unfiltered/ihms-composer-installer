@@ -24,7 +24,8 @@
 		}
 	],
 	"require":{
-		"PHP":">=5.3.3"
+		"PHP":">=5.3.3",
+		"ihms/ihms-sysconf":"dev-master"
 	},
 	"autoload":{
 		"psr-0":{
