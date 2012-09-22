@@ -57,6 +57,8 @@ class Installer extends LibraryInstaller
                 $ret = true;
                 break;
             case 'ihms-web':
+                $ret = true;
+                break;
             default:
                 $ret = false;
         }
